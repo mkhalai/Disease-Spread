@@ -1,6 +1,6 @@
 ![infected and recovered](https://github.com/mkhalai/Disease-Spread/blob/master/model.png)
-# Disease-Spread
-An animated visualization of how infections diseases spread over time using matplotlib.animation and numpy.
+# Disease Spread
+An animated visualization of how infectious diseases spread over time using matplotlib.animation and numpy.
 This is an implementation of the SIR model where the removed class consists of only recoveries ie. the death rate is 0.
 
 ## Usage

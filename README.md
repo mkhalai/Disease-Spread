@@ -11,7 +11,9 @@ By the end of each step, each infected person on the stage has the above probabi
 ### stage_dimension (default = 20)
 Sets an M x M stage with (0,0) as the stage centre. Changing the stage are will have the effect of increasing or decreasing the number of interactions any given person will have.
 ### initial conditions
-population size (default = 100), initial infected (2), initial removed (0)
+#### population size (default = 100) 
+#### initial infected (default = 2) 
+#### initial removed (default = 0)
 
 
 

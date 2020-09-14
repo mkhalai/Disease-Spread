@@ -13,7 +13,7 @@ infection_radius = 0.6
 recovery_rate = 0.01
 stage_dimension = 20 # MxM square stage
 
-init = [500, # pop. size
+init = [100, # pop. size
         2, # infected
         0] #removed
 
@@ -85,6 +85,11 @@ class Sim():
         self.scat.set_color(c.T)
         return self.scat,
 
-S = Sim(init)
-plt.show()
 
+
+def main():
+    S = Sim(init)
+    plt.show()
+
+if __name__ == "__main__":
+    main()
